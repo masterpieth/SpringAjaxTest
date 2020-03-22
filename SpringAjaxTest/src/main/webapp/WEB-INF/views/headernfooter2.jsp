@@ -34,26 +34,42 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="Service.html">Service</a></li>
-							<li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+							<li class="nav-item active"><a class="nav-link" href="index.html">메인페이지</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
+								 aria-expanded="false">자기분석</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+									<li class="nav-item"><a class="nav-link" href="blog.html">성향 분석</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-blog.html">인재상 분석</a></li>
+									<li class="nav-item"><a class="nav-link" href="blog.html">분석 결과 조회</a></li>
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
+								 aria-expanded="false">이력서</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+									<li class="nav-item"><a class="nav-link" href="blog.html">새 이력서</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-blog.html">이력서 목록</a></li>
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">멘토링</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="blog.html">예약하기</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-blog.html">마이스케줄</a></li>
+								</ul>
+							</li>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">모의면접</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="blog.html">면접보기</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-blog.html">결과조회</a></li>
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="about-us.html">마이페이지</a></li>
+							<li class="nav-item"><a class="nav-link" href="about-us.html">로그인</a></li>
 						</ul>
 					</div>
 				</div>
