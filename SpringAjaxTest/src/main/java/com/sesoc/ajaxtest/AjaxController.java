@@ -25,7 +25,7 @@ public class AjaxController {
 	
 	@RequestMapping(value = "headernfooter", method = RequestMethod.GET)
 	public String headernfooter() {
-		return "headernfooter";
+		return "headernfooter2";
 	}
 	
 	@RequestMapping(value = "ajaxBasic", method = RequestMethod.GET)
