@@ -13,5 +13,6 @@
 	<a href="ajaxObject">Ajax 데이터 전달</a>
 	<br>
 	<a href="ajaxBoard?temp=test">Ajax 게시판</a>
+	<a href="headernfooter">헤더&푸터</a>
 </body>
 </html>
