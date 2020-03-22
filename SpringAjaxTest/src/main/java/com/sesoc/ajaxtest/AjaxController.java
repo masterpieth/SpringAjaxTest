@@ -22,6 +22,12 @@ public class AjaxController {
 	@Autowired
 	private BoardDAO dao;
 	
+	
+	@RequestMapping(value = "headernfooter", method = RequestMethod.GET)
+	public String headernfooter() {
+		return "headernfooter";
+	}
+	
 	@RequestMapping(value = "ajaxBasic", method = RequestMethod.GET)
 	public String ajaxBasic() {
 		return "ajaxBasic";
