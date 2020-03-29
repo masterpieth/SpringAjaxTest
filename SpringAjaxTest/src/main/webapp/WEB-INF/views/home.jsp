@@ -14,5 +14,6 @@
 	<br>
 	<a href="ajaxBoard?temp=test">Ajax 게시판</a>
 	<a href="headernfooter">헤더&푸터</a>
+	<a href="flaskTest">플라스크 테스트</a>
 </body>
 </html>

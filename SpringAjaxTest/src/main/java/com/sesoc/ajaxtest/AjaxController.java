@@ -22,6 +22,10 @@ public class AjaxController {
 	@Autowired
 	private BoardDAO dao;
 	
+	@RequestMapping(value = "flaskTest", method = RequestMethod.GET)
+	public String flaskTest() {
+		return "flaskTest";
+	}
 	
 	@RequestMapping(value = "headernfooter", method = RequestMethod.GET)
 	public String headernfooter() {
